@@ -1,0 +1,42 @@
+<html>
+    <body>
+        <style>
+            input{
+                width:400px;
+                height:34px;
+                border-radius:5px;
+                border-color:lightgray;
+            }
+            select{
+                width:400px;
+                height:34px;
+                border-radius:5px;
+                border-color:lightgray;
+                background-color: lightgray;
+            }
+        </style>
+        <form style="padding-inline: 400px;">
+            <label for="name" style="font-size: 18px;"><br>First Name:<span style="color:red;">*</span> </label><br>
+             <input type="text"  placeholder="Your first name" name="name" required><br><br>
+             <label for="name" style="font-size: 18px;"><br>Last Name:<span style="color:red;">*</span> </label><br>
+             <input type="text"  placeholder="Your last name" name="name" required><br><br>
+             <label for="mailid" style="font-size: 18px;"><br>Email<span style="color:red;"">*</span></label><br>
+             <input type="email" placeholder="Your email address" name="E-mail" required><br><br>
+             <label for="name" style="font-size: 18px;"><br>Address</label><br>
+             <input type="text" placeholder="Your postal address" name="address" style="height:80px;" required><br><br>
+             <label for="name" style="font-size: 18px;"><br>City</label><br>
+             <input type="text" placeholder="City" name="City" required><br><br>
+             <label for="name" style="font-size: 18px;"><br>Zip cod</label><br>
+             <input type="number" placeholder="Zip code" name="Code" required><br><br>
+             <label for="state" style="font-size: 18px;"><br>State</label><br>
+                <select>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Kerala">kerala</option>
+                    <option value="Karnataka">karnataka</option>
+                    <option value="Andhra Pradesh">Andhra pradesh</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Bihar">Bihar</option>
+                </select>
+        </form>
+    </body>
+</html>
